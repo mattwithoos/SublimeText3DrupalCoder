@@ -4,7 +4,7 @@ Sublime Text 3 integration with Drupal Code Sniffer.
 2. Make a note of the install location of phpcs (i.e. /Users/yourusername/.composer/vendor/bin)
  2. If phpcs was previously installed, uninstall and redo Drupal Coder installation (phpcs comes with it)
 3. Clone this repo somewhere:
-`git clone https://github.com/MattWithoos/SublimeText3DrupalCoder
+`git clone https://github.com/mattwithoos/SublimeText3DrupalCoder
 4. *IMPORTANT* Edit DrupalCoder.sublime-build, updating the path /Users/changeme/... to phpcs. You can try `whereis phpcs` or `which phpcs` if you don't have the path from step 2.
 5. Place the DrupalCoder.sublime-build file into your Packages/User directory.
    (On OS X this is ~/Library/Application Support/Sublime Text 3/Packages/User)
