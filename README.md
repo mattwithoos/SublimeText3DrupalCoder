@@ -9,7 +9,8 @@ Sublime Text 3 integration with Drupal Code Sniffer.
 5. Place the DrupalCoder.sublime-build file into your Packages/User directory.
    (On OS X this is ~/Library/Application Support/Sublime Text 3/Packages/User)
 6. Open up Sublime Text 3 and select Tools > Build System > DrupalCodingStandard
-7. Open any Drupal file and hit Cmd+B (probably CTRL+B on Windows)
+7. Open any Drupal file and hit Cmd+B (probably CTRL+B on Windows/Linux)
 8. You can make reporting more compress with "--report=full". In this case sniffer will show only line number(without full path to file)
+9. To auto fix any file with phpcbf run Cmd+shift+B (probably CTRL+shift+B on Windows/Linux)
 
 Got Sublime Text 2? Credits to sirkitree for the inspiration, some of the readme and code, as well as having a Sublime Text 2 build script. https://github.com/sirkitree/DrupalCodingStandard
